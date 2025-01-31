@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
 /* Global Styles */
 * {
     margin: 0;
@@ -5,7 +8,7 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     color: #fff;
     background: linear-gradient(45deg, #ff6c00, #2c3e50, #8e44ad); /* Gradient Background */
     overflow-x: hidden;
@@ -25,9 +28,11 @@ nav {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 1000;
+    text-align: center;
 }
 nav ul {
-    display: flex;
+    display: inline-flex;
+    text-align: center;
     justify-content: center;
     padding: 10px 0;
 }
